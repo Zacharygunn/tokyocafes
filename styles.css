@@ -1,0 +1,109 @@
+/**This is formatting for the top tabs**/
+ @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    text-align: left;
+    height: 50px;
+
+}
+
+.header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav {
+    float: left;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding: 3px;
+    color: white;
+    position: relative;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+.nav-link:hover,
+.nav-link:hover i {
+    color: #CCCCFF;
+}
+
+.nav-link::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #CCCCFF;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+/**Formattings for intro photo**/
+
+body {    
+        background-color: #fff3d0;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 30px;
+}
+
+img {
+    margin: auto;
+    width: 50%;
+    display: block;
+
+
+}
