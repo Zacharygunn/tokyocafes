@@ -5,7 +5,7 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 87.5%;
 
 }
 
@@ -13,7 +13,7 @@ body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 87.5%;
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
     top: 0;
     z-index: 1;
     text-align: left;
-    height: 50px;
+    height: 7%;
 
 }
 
@@ -51,17 +51,17 @@ body {
 .nav-menu li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 20px;
-    padding: 3px;
+    padding: 10px;
     color: white;
     position: relative;
+    text-size-adjust: auto;
 }
 
 .nav-link {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 220%;
 }
 
 .nav-link i {
@@ -97,7 +97,7 @@ body {
         height: 100%;
         background-repeat: no-repeat;
         background-size: contain;
-        padding-top: 30px;
+        padding-top: 7%;
 }
 
 img {
